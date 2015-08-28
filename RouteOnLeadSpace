@@ -1,0 +1,2 @@
+BLANKVALUE(TEXT(Employees_Override__c), BLANKVALUE(TEXT(LS_Company_Size_Range__c), TEXT(NumberOfEmployees__c)))
+
