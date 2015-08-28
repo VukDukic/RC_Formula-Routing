@@ -1,0 +1,14 @@
+BLANKVALUE(
+IF(Employees_Override__c >= 1000,"1000+",
+IF(Employees_Override__c >= 250,"250-999",
+IF(Employees_Override__c >= 50,"50-249",
+IF(Employees_Override__c >= 10,"10-49",
+IF(Employees_Override__c >= 2,"2-9",
+IF(Employees_Override__c = 1,"Just me",
+null
+))))))
+,
+BLANKVALUE(TEXT(LS_No_of_Employees_Range__c),
+BLANKVALUE(TV_No_of_Employees_Range__c, 
+BLANKVALUE(ZI_No_of_Employees_Range__c, 
+TEXT(No_of_Employees__c)))))
