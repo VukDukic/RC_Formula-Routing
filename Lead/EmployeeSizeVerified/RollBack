@@ -1,0 +1,2 @@
+AND(Effective_No_of_Employees_Range__c = TEXT(LS_Company_Size_Range__c), NOT(ISBLANK(TEXT(LS_Company_Size_Range__c))))
+
