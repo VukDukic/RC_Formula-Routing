@@ -1,0 +1,2 @@
+OR(NOT(ISBLANK(TEXT(Employees_Override__c))),AND(Effective_No_of_Employees_Range__c = LS_Company_Size_Range__c, NOT(ISBLANK(LS_Company_Size_Range__c))))
+
