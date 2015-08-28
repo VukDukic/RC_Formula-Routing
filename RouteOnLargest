@@ -1,0 +1,9 @@
+BLANKVALUE(TEXT(Employees_Override__c),  
+IF(OR(LS_Company_Size_Range__c = "1000+",TEXT(NumberOfEmployees__c) = "1000+"),"1000+",  
+IF(OR(LS_Company_Size_Range__c = "250-999",TEXT(NumberOfEmployees__c) = "250-999"),"250-999",  
+IF(OR(LS_Company_Size_Range__c = "50-249",TEXT(NumberOfEmployees__c) = "50-249"),"50-249",  
+IF(OR(LS_Company_Size_Range__c = "10-49",TEXT(NumberOfEmployees__c) = "10-49"),"10-49",  
+IF(OR(LS_Company_Size_Range__c = "2-9",TEXT(NumberOfEmployees__c) = "2-9"),"2-9",  
+IF(OR(LS_Company_Size_Range__c = "Just me",TEXT(NumberOfEmployees__c) = "Just me"),"Just me",null  
+)))))))
+
