@@ -1,0 +1,2 @@
+BLANKVALUE(Account__r.Effective_No_of_Employees_Range__c ,BLANKVALUE(TEXT(Opportunity__r.Number_of_Employees__c), Lead__r.Effective_No_of_Employees_Range__c))
+
